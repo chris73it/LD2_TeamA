@@ -4927,3 +4927,83 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2023.02.01-01.45.50:890][311]LogPlayLevel: Display: Destroying online subsystem :Context_74
 [2023.02.01-01.46.23:186][299]LogUObjectHash: Compacting FUObjectHashTables data took   1.77ms
 [2023.02.01-01.46.23:191][299]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/Levels/ChaunceysWhiteBox' took 0.025
+[2023.02.01-01.47.54:990][583]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube5)
+[2023.02.01-01.47.56:197][700]LogTemp: Repeating last play command: Selected Viewport
+[2023.02.01-01.47.56:205][700]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.02.01-01.47.56:205][700]PIE: New page: PIE session: ChaunceysWhiteBox (Jan 31, 2023, 9:47:56 AM)
+[2023.02.01-01.47.56:243][700]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_ChaunceysWhiteBox
+[2023.02.01-01.47.56:253][700]LogPlayLevel: PIE: StaticDuplicateObject took: (0.009175s)
+[2023.02.01-01.47.56:254][700]LogAIModule: Creating AISystem for world ChaunceysWhiteBox
+[2023.02.01-01.47.56:254][700]LogPlayLevel: PIE: World Init took: (0.001263s)
+[2023.02.01-01.47.56:254][700]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/ChaunceysWhiteBox.ChaunceysWhiteBox to /Game/Levels/UEDPIE_0_ChaunceysWhiteBox.ChaunceysWhiteBox (0.010655s)
+[2023.02.01-01.47.56:273][700]LogUObjectHash: Compacting FUObjectHashTables data took   1.79ms
+[2023.02.01-01.47.56:275][700]LogAudio: Display: Creating Audio Device:                 Id: 71, Scope: Unique, Realtime: True
+[2023.02.01-01.47.56:275][700]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.02.01-01.47.56:275][700]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.02.01-01.47.56:275][700]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.02.01-01.47.56:275][700]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.02.01-01.47.56:275][700]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2023.02.01-01.47.56:275][700]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2023.02.01-01.47.56:275][700]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2023.02.01-01.47.56:275][700]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.02.01-01.47.56:275][700]LogAudio: Display: Using built-in audio occlusion.
+[2023.02.01-01.47.56:275][700]LogAudioMixer: Display: Initializing audio mixer.
+[2023.02.01-01.47.56:283][700]LogAudioMixer: Display: 0: FrontLeft
+[2023.02.01-01.47.56:283][700]LogAudioMixer: Display: 1: FrontRight
+[2023.02.01-01.47.56:292][700]LogAudioMixer: Display: Using Audio Device Speakers (G06-BT)
+[2023.02.01-01.47.56:292][700]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.02.01-01.47.56:292][700]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.02.01-01.47.56:292][700]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.02.01-01.47.56:292][700]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2023.02.01-01.47.56:293][700]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2023.02.01-01.47.56:293][700]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2023.02.01-01.47.56:306][700]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2023.02.01-01.47.56:306][700]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2023.02.01-01.47.56:306][700]LogInit: FAudioDevice initialized.
+[2023.02.01-01.47.56:306][700]LogAudio: Display: Audio Device (ID: 71) registered with world 'ChaunceysWhiteBox'.
+[2023.02.01-01.47.56:312][700]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2023.02.01-01.47.56:316][700]LogWorld: Bringing World /Game/Levels/UEDPIE_0_ChaunceysWhiteBox.ChaunceysWhiteBox up for play (max tick rate 0) at 2023.01.31-17.47.56
+[2023.02.01-01.47.56:316][700]LogWorld: Bringing up level for play took: 0.004002
+[2023.02.01-01.47.56:316][700]LogOnline: OSS: Creating online subsystem instance for: :Context_75
+[2023.02.01-01.47.56:319][700]PIE: Server logged in
+[2023.02.01-01.47.56:320][700]PIE: Play in editor total start time 0.118 seconds.
+[2023.02.01-01.48.12:116][587]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.02.01-01.48.12:116][587]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_ChaunceysWhiteBox
+[2023.02.01-01.48.12:116][587]LogWorld: UWorld::CleanupWorld for ChaunceysWhiteBox, bSessionEnded=true, bCleanupResources=true
+[2023.02.01-01.48.12:117][587]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.02.01-01.48.12:124][587]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.02.01-01.48.12:140][587]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.02.01-01.48.12:157][587]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.02.01-01.48.12:158][587]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2023.02.01-01.48.12:159][587]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2023.02.01-01.48.12:177][587]LogUObjectHash: Compacting FUObjectHashTables data took   1.79ms
+[2023.02.01-01.48.12:210][588]LogPlayLevel: Display: Destroying online subsystem :Context_75
+[2023.02.01-01.48.30:577][722]LogContentBrowser: Attempting asset rename: ThirdPersonCharacter -> ChaunceysCharacterVersion
+[2023.02.01-01.48.30:652][722]LogMetaData: Removing '/Game/ThirdPersonBP/Blueprints/ChaunceysCharacterVersion.ChaunceysCharacterVersion_C' ref from Metadata '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.PackageMetaData'
+[2023.02.01-01.48.30:652][722]LogMetaData: Removing '/Game/ThirdPersonBP/Blueprints/ChaunceysCharacterVersion.SKEL_ChaunceysCharacterVersion_C' ref from Metadata '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.PackageMetaData'
+[2023.02.01-01.48.30:652][722]LogMetaData: Removing '/Game/ThirdPersonBP/Blueprints/ChaunceysCharacterVersion.ChaunceysCharacterVersion_C:ReceiveTick' ref from Metadata '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.PackageMetaData'
+[2023.02.01-01.48.30:652][722]LogMetaData: Removing '/Game/ThirdPersonBP/Blueprints/ChaunceysCharacterVersion.ChaunceysCharacterVersion_C:ReceiveBeginPlay' ref from Metadata '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.PackageMetaData'
+[2023.02.01-01.48.30:652][722]LogMetaData: Removing '/Game/ThirdPersonBP/Blueprints/ChaunceysCharacterVersion.ChaunceysCharacterVersion_C:OnLanded' ref from Metadata '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.PackageMetaData'
+[2023.02.01-01.48.30:652][722]LogMetaData: Removing '/Game/ThirdPersonBP/Blueprints/ChaunceysCharacterVersion.ChaunceysCharacterVersion_C:OnLaunched' ref from Metadata '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.PackageMetaData'
+[2023.02.01-01.48.30:652][722]LogMetaData: Removing '/Game/ThirdPersonBP/Blueprints/ChaunceysCharacterVersion.ChaunceysCharacterVersion_C:OnJumped' ref from Metadata '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.PackageMetaData'
+[2023.02.01-01.48.30:652][722]LogMetaData: Removing '/Game/ThirdPersonBP/Blueprints/ChaunceysCharacterVersion.SKEL_ChaunceysCharacterVersion_C:UserConstructionScript' ref from Metadata '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.PackageMetaData'
+[2023.02.01-01.48.30:652][722]LogMetaData: Removing '/Game/ThirdPersonBP/Blueprints/ChaunceysCharacterVersion.SKEL_ChaunceysCharacterVersion_C:OnJumped' ref from Metadata '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.PackageMetaData'
+[2023.02.01-01.48.30:652][722]LogMetaData: Removing '/Game/ThirdPersonBP/Blueprints/ChaunceysCharacterVersion.SKEL_ChaunceysCharacterVersion_C:OnLaunched' ref from Metadata '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.PackageMetaData'
+[2023.02.01-01.48.30:652][722]LogMetaData: Removing '/Game/ThirdPersonBP/Blueprints/ChaunceysCharacterVersion.SKEL_ChaunceysCharacterVersion_C:OnLanded' ref from Metadata '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.PackageMetaData'
+[2023.02.01-01.48.30:652][722]LogMetaData: Removing '/Game/ThirdPersonBP/Blueprints/ChaunceysCharacterVersion.SKEL_ChaunceysCharacterVersion_C:ReceiveBeginPlay' ref from Metadata '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.PackageMetaData'
+[2023.02.01-01.48.30:652][722]LogMetaData: Removing '/Game/ThirdPersonBP/Blueprints/ChaunceysCharacterVersion.SKEL_ChaunceysCharacterVersion_C:ReceiveTick' ref from Metadata '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.PackageMetaData'
+[2023.02.01-01.48.30:652][722]LogMetaData: Removing '/Game/ThirdPersonBP/Blueprints/ChaunceysCharacterVersion.SKEL_ChaunceysCharacterVersion_C:InpAxisEvt_LookUpRate_K2Node_InputAxisEvent_53' ref from Metadata '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.PackageMetaData'
+[2023.02.01-01.48.30:652][722]LogMetaData: Removing '/Game/ThirdPersonBP/Blueprints/ChaunceysCharacterVersion.SKEL_ChaunceysCharacterVersion_C:InpAxisEvt_TurnRate_K2Node_InputAxisEvent_38' ref from Metadata '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.PackageMetaData'
+[2023.02.01-01.48.30:652][722]LogMetaData: Removing '/Game/ThirdPersonBP/Blueprints/ChaunceysCharacterVersion.SKEL_ChaunceysCharacterVersion_C:InpAxisEvt_MoveRight_K2Node_InputAxisEvent_90' ref from Metadata '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.PackageMetaData'
+[2023.02.01-01.48.30:652][722]LogMetaData: Removing '/Game/ThirdPersonBP/Blueprints/ChaunceysCharacterVersion.SKEL_ChaunceysCharacterVersion_C:InpAxisEvt_MoveForward_K2Node_InputAxisEvent_79' ref from Metadata '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.PackageMetaData'
+[2023.02.01-01.48.30:652][722]LogMetaData: Removing '/Game/ThirdPersonBP/Blueprints/ChaunceysCharacterVersion.SKEL_ChaunceysCharacterVersion_C:InpAxisEvt_Turn_K2Node_InputAxisEvent_47' ref from Metadata '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.PackageMetaData'
+[2023.02.01-01.48.30:652][722]LogMetaData: Removing '/Game/ThirdPersonBP/Blueprints/ChaunceysCharacterVersion.SKEL_ChaunceysCharacterVersion_C:InpAxisEvt_LookUp_K2Node_InputAxisEvent_40' ref from Metadata '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.PackageMetaData'
+[2023.02.01-01.48.30:704][722]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPersonBP/Blueprints/ChaunceysCharacterVersion" FILE="../../../../../GitHub/LD2_TeamA/Content/ThirdPersonBP/Blueprints/ChaunceysCharacterVersion.uasset" SILENT=true
+[2023.02.01-01.48.30:795][722]LogSavePackage: Moving '../../../../../GitHub/LD2_TeamA/Saved/ChaunceysCharacterVersion04DFD3CE4237D22A077451A0A9D2C4C5.tmp' to '../../../../../GitHub/LD2_TeamA/Content/ThirdPersonBP/Blueprints/ChaunceysCharacterVersion.uasset'
+[2023.02.01-01.48.30:797][722]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter" FILE="../../../../../GitHub/LD2_TeamA/Content/ThirdPersonBP/Blueprints/ThirdPersonCharacter.uasset" SILENT=true
+[2023.02.01-01.48.30:797][722]LogSavePackage: Moving '../../../../../GitHub/LD2_TeamA/Saved/ThirdPersonCharacterD5DD77F7483BACE6124E1FB333E76DF8.tmp' to '../../../../../GitHub/LD2_TeamA/Content/ThirdPersonBP/Blueprints/ThirdPersonCharacter.uasset'
+[2023.02.01-01.48.31:011][722]AssetCheck: New page: Asset Save: multiple assets
+[2023.02.01-01.48.31:011][722]LogContentValidation: Display: Validating Blueprint /Game/ThirdPersonBP/Blueprints/ChaunceysCharacterVersion.ChaunceysCharacterVersion
+[2023.02.01-01.48.31:011][722]LogContentValidation: Display: Validating ObjectRedirector /Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter
+[2023.02.01-01.48.31:011][722]LogContentValidation: Display: Validating ObjectRedirector /Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.Default__ThirdPersonCharacter_C
+[2023.02.01-01.48.31:011][722]LogContentValidation: Display: Validating ObjectRedirector /Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C
